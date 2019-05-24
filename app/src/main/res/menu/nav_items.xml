@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/first"
+            android:icon="@drawable/ic_beach"
+            android:title="First Menu" />
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/ic_chat"
+            android:title="Second Menu" />
+        <item
+            android:id="@+id/third"
+            android:icon="@drawable/ic_fingerprint_black_24dp"
+            android:title="Third Menu" />
+    </group>
+
+    <item
+        android:id="@+id/Fourth"
+        android:icon="@drawable/ic_beach"
+        android:title="fourth menu"></item>
+
+</menu>
+
